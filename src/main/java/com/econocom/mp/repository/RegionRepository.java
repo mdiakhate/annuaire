@@ -1,0 +1,15 @@
+package com.econocom.mp.repository;
+
+import com.econocom.mp.domain.Region;
+import org.springframework.data.jpa.repository.*;
+import org.springframework.stereotype.Repository;
+
+
+/**
+ * Spring Data  repository for the Region entity.
+ */
+@SuppressWarnings("unused")
+@Repository
+public interface RegionRepository extends JpaRepository<Region, Long> {
+
+}

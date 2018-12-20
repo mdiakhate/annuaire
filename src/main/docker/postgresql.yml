@@ -1,0 +1,11 @@
+version: '2'
+services:
+    mp-postgresql:
+        image: postgres:10.4
+        # volumes:
+        #     - ~/volumes/jhipster/mp/postgresql/:/var/lib/postgresql/data/
+        environment:
+            - POSTGRES_USER=mp
+            - POSTGRES_PASSWORD=
+        ports:
+            - 5432:5432

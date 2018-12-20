@@ -1,0 +1,52 @@
+<div class="row">
+  <div class="col-md-1"></div>
+  <div class="col-md-10">
+    <h6 class="text-right">{{message}}</h6>
+    <!--<h1 class="text-capitalize text-center" jhiTranslate="annuaire.title">Title</h1>-->
+    <!--<h5 class="text-center" jhiTranslate="annuaire.subtitle">Subtitle</h5>-->
+    <hr/>
+    <!--<p class="text-justify" jhiTranslate="annuaire.content">Content</p>-->
+  </div>
+  <div class="col-md-1"></div>
+</div>
+<!--<div>-->
+    <!--<div id="navigation">-->
+        <!--<ul>-->
+            <!--<li class="home"><a href="#"><span>Entités</span></a></li>-->
+            <!--<li class="products"><a href="#"><span>Personnes</span></a></li>-->
+            <!--<li class="contact"><a href="#"><span>Applications</span></a></li>-->
+        <!--</ul>-->
+    <!--</div>-->
+
+    <!--<div id="navigation-2">-->
+        <!--<ul>-->
+            <!--<li class="home"><a href="#"><span>Entité</span></a></li>-->
+            <!--<li class="products"><a href="#"><span>Entité filiale</span></a></li>-->
+        <!--</ul>-->
+    <!--</div>-->
+<!--</div>-->
+<button class="tablink" onclick="tst()">Home</button>
+<button class="tablink" onclick="openPage('News', this, 'green')" id="defaultOpen">News</button>
+<button class="tablink" onclick="openPage('News', this, 'green')">Contact</button>
+<button class="tablink" onclick="openPage('About', this, 'orange')">About</button>
+
+<div id="Home" class="tabcontent">
+    <h3>Home</h3>
+    <p>Home is where the heart is..</p>
+</div>
+
+<div id="News" class="tabcontent">
+    <h3>News</h3>
+    <p>Some news this fine day!</p>
+</div>
+
+<div id="Contact" class="tabcontent">
+    <h3>Contact</h3>
+    <p>Get in touch, or swing by for a cup of coffee.</p>
+</div>
+
+<div id="About" class="tabcontent">
+    <h3>About</h3>
+    <p>Who we are and what we do.</p>
+</div>
+
